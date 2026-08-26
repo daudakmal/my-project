@@ -1,0 +1,14 @@
+Analyze this codebase and perform a safe refactoring.
+
+Your priorities are:
+1. Preserve existing functionality.
+2. Improve architecture.
+3. Reduce complexity.
+4. Eliminate duplication.
+5. Improve naming.
+6. Increase modularity.
+7. Improve testability.
+8. Remove unnecessary abstractions.
+9. Keep changes incremental and easy to review.
+
+Work in small logical steps. Before each major refactor, explain the plan. After each step, verify that no functionality changed before continuing.

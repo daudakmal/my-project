@@ -1,0 +1,73 @@
+Premium Visual Upgrade Audit
+
+Goal:
+Review the project’s visuals and explain how to make it look more high-end, polished, and professional.
+
+This audit should focus only on visual quality, presentation, and polish.
+
+Please check:
+
+1. Overall visual impression
+
+* Does the project look cheap, unfinished, or placeholder?
+* What makes it feel low-end?
+* What parts already look good?
+* What should be improved first?
+
+2. Art style
+
+* Is there a clear visual style?
+* Do all assets look like they belong together?
+* Are any assets mismatched, blurry, stretched, too simple, or low quality?
+* What style direction would make the project look better?
+
+3. Color and lighting
+
+* Are the colors attractive and consistent?
+* Is the contrast strong enough?
+* Does the project need better lighting, shadows, gradients, glow, or atmosphere?
+* Are important elements visually separated from the background?
+
+4. UI quality
+
+* Do buttons, menus, icons, text, panels, and counters look professional?
+* Is the spacing clean?
+* Are fonts readable and consistent?
+* Does the UI feel modern or basic?
+* What UI elements should be redesigned?
+
+5. Animation and visual feedback
+
+* Are actions visually satisfying?
+* Are there enough effects for clicks, hits, rewards, upgrades, damage, success, and failure?
+* Are animations too stiff, missing, or too simple?
+* What small effects would make the project feel more premium?
+
+6. Backgrounds and environment
+
+* Does the world feel empty or flat?
+* Does the background support the main content without distracting?
+* Are there enough details, depth, shadows, or atmosphere?
+* What background improvements would give the biggest visual upgrade?
+
+7. Prioritized improvement list
+   Please provide:
+
+* Top 5 visual problems
+* Top 5 quick wins
+* Top 5 high-impact upgrades
+* What should be changed first
+* What can wait until later
+
+Output:
+Write the audit results into an audit folder.
+
+Use these files:
+
+* audit/visual_summary.md
+* audit/visual_problems.md
+* audit/quick_wins.md
+* audit/high_impact_upgrades.md
+* audit/visual_priority_plan.md
+
+Keep the feedback practical. Focus on changes that would make the project look more polished and high-end without redesigning the whole project from scratch.

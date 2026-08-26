@@ -1,0 +1,92 @@
+Game:
+The Last Village
+
+I want to make a simple top-down town defense shooter MVP.
+Make it a browser game using HTML5.
+It should run in Chrome/Edge/Firefox with no install needed.
+
+The player controls one character inside or near a small town. Enemies keep coming toward the town without full breaks or wave interruptions. The player shoots enemies, collects gold from them, and uses that gold to upgrade the town while the action continues.
+
+The core loop should be:
+
+Shoot enemies → collect gold → click town objects to upgrade → survive longer
+
+Main gameplay:
+
+* The player moves with WASD.
+* The player aims with the mouse.
+* The player shoots with left click.
+* Enemies come from outside the town and try to damage the town core.
+* When enemies die, they drop gold.
+* Gold is collected automatically when the player gets close.
+* The player spends gold by clicking objects in the town.
+* The game should not open a full shop screen or pause the action.
+
+I want upgrades to happen directly in the world.
+
+There should be only 3 upgrade targets for the MVP:
+
+1. Tower spots
+
+* Empty tower spot: click to build a tower.
+* Built tower: click to upgrade it.
+* Towers automatically shoot nearby enemies.
+
+2. Town core
+
+* Click to repair the town when it is damaged.
+* If town health reaches 0, the player loses.
+
+3. Forge
+
+* Click to upgrade the player’s weapon.
+* This can increase damage or fire rate.
+
+Enemies:
+
+* Add 2 enemy types for MVP.
+* One fast weak enemy.
+* One slower stronger enemy.
+* Enemies should move toward the town core and attack it.
+
+Game flow:
+
+* The action should be ongoing.
+* No full pause between waves.
+* Difficulty should slowly increase over time.
+* More enemies or stronger enemies should appear as time passes.
+* The goal for the MVP is to survive for 10 minutes.
+
+Win/Lose:
+
+* Win if the player survives 10 minutes.
+* Lose if the town core health reaches 0.
+
+Important design feeling:
+The game should be easy to understand right away.
+
+The player should quickly understand:
+
+* shoot enemies
+* collect gold
+* click tower spots to build
+* click towers to upgrade
+* click town core to repair
+* click forge to upgrade weapon
+
+Please keep it simple for the MVP.
+
+Do not add:
+
+* a big shop menu
+* many weapons
+* many tower types
+* many enemy types
+* story cutscenes
+* complicated controls
+* complicated skill trees
+* multiplayer
+* inventory
+* quests
+
+The main thing I want is a fun, simple, nonstop action loop where the player defends a town, earns gold, and upgrades defenses while enemies keep attacking.

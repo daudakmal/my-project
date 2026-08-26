@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>The Last Village</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="gameWrap">
+  <canvas id="gameCanvas" width="1280" height="720"></canvas>
+
+  <div id="hud">
+    <span id="timerBox">Time: <span id="hudTimer">10:00</span></span>
+    <span id="weaponBox">Weapon Lv: <span id="hudWeapon">1</span></span>
+    <span id="goldBox">Gold: <span id="hudGold">0</span></span>
+  </div>
+
+  <div id="hint">WASD move · Mouse aim · Click &amp; hold to shoot · Click tower spots / core / forge to upgrade</div>
+
+  <div id="endOverlay" class="hidden">
+    <h1 id="endTitle">Game Over</h1>
+    <p id="endSubtitle"></p>
+    <button id="restartBtn">Restart</button>
+  </div>
+</div>
+
+<script src="config.js"></script>
+<script src="entities.js"></script>
+<script src="render.js"></script>
+<script src="input.js"></script>
+<script src="game.js"></script>
+</body>
+</html>

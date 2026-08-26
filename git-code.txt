@@ -1,0 +1,57 @@
+## Full code in one copyable place
+
+# Check that Git is installed
+git --version
+
+# Configure Git identity
+git config --global user.name "DAkmal"
+git config --global user.email "daudakmal@gmail.com"
+
+# Check the Git configuration
+git config --global --list
+
+# Check that GitHub CLI is installed
+gh --version
+
+# Windows
+winget install --id GitHub.cli -e --source winget
+
+# macOS (using Homebrew)
+brew install gh
+
+
+# Check that GitHub CLI is installed
+gh --version
+
+
+# Log in to GitHub
+gh auth login
+
+# Check GitHub CLI login status
+gh auth status
+
+# Create a new project folder
+mkdir prj01
+cd prj01
+
+# Turn the folder into a Git repository, after this command git will be tracking changes in the project folder
+git init
+
+# Create a README.md file manually in your editor
+# Add this content to the file:
+# # prj01
+
+# Check what Git sees
+git status
+
+# Stage the README file
+git add README.md
+
+# Create the first commit
+git commit -m "Initial commit"
+
+# Create a GitHub repository and push the project online
+gh repo create my-project --public --source=. --remote=origin --push
+
+# Open the GitHub repository in the browser
+gh repo view --web

@@ -1,0 +1,51 @@
+[Encoding]
+InputEncoding=UTF8
+
+[WFClient]
+ClientName=EXT_F5
+CPMAllowed=Off
+ProxyFavorIEConnectionSetting=Yes
+ProxyTimeout=30000
+ProxyType=None
+ProxyUseFQDN=Off
+RemoveICAFile=yes
+TransportReconnectEnabled=On
+Version=2
+VirtualCOMPortEmulation=Off
+VSLAllowed=On
+
+[ApplicationServers]
+DG-EMEA-RemotePC $P809=
+
+[DG-EMEA-RemotePC $P809]
+Address=;653ac0097ed01a63a3ad2399095a91b2d0857632b1253e126c8f9c82
+AutologonAllowed=On
+BrowserProtocol=HTTPonTCP
+CGPSecurityTicket=On
+ClearPassword=EB1311A84539C6
+ClientAudio=On
+ConnectionBar=1
+DesiredColor=8
+DesiredHRES=4294967295
+DesiredVRES=4294967295
+Domain=\C6F38A3E54399D51
+DoNotUseDefaultCSL=On
+FontSmoothingType=0
+HttpBrowserAddress=!
+InitialProgram=#DG-EMEA-RemotePC $P809
+LocHttpBrowserAddress=!
+LogonTicket=EB1311A84539C6C6F38A3E54399D51
+LogonTicketType=CTXS1
+ProxyTimeout=30000
+ProxyType=None
+SecureChannelProtocol=Detect
+SessionsharingKey=7F1A48D34601A869BC57C41CD4445A3EFE726E58
+SFRAllowed=Off
+SSLCiphers=all
+SSLEnable=On
+SSLProxyHost=desktop.viterra.online:443
+Title=Remote PC
+TransportDriver=TCP/IP
+TWIMode=Off
+WinStationDriver=ICA 3.0
+
