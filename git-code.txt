@@ -46,6 +46,7 @@ git status
 
 # Stage the README file
 git add README.md
+git add .
 
 # Create the first commit
 git commit -m "Initial commit"
