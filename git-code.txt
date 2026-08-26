@@ -48,11 +48,24 @@ git status
 git add README.md
 git add .
 
-# Create the first commit
+# Create the first commit  (save the file locally)
 git commit -m "Initial commit"
 
 # Create a GitHub repository and push the project online
 gh repo create my-project --public --source=. --remote=origin --push
 
+# change file content then save and commit
+
+git add .
+git commit -m "File change"
+
+#upload the changed file to cloud: github repository
+git push
+
+
 # Open the GitHub repository in the browser
 gh repo view --web
+
+# get the latest file from the github repository to local
+git pull 
+
